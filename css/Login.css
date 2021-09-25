@@ -1,0 +1,387 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.login-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: var(--src) center center/cover no-repeat;
+  background-color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .login-group {
+    background-image: url(../assets/m-bg.png);
+  }
+}
+
+.login-group.layout {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px;
+}
+
+.login-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login-flex.layout {
+  position: absolute;
+  overflow: visible;
+  top: 56px;
+  left: 56px;
+  width: calc(50vw - 350px);
+}
+
+@media screen and (max-width: 992px) {
+  .login-flex.layout {
+    display: none;
+  }
+}
+
+.login-img {
+  background: var(--src) center center/contain no-repeat;
+}
+
+.login-img.layout {
+  position: relative;
+  height: 38px;
+  width: 125px;
+  min-width: 125px;
+  margin: 0px;
+}
+
+.login-highlights {
+  font: 16px/1.5625 "Noto Sans", Helvetica, Arial, serif;
+  color: #5b5b5b;
+  letter-spacing: 0;
+  margin: 0px;
+}
+
+.login-highlights.layout {
+  position: relative;
+  margin: 23px 0px 0px;
+  font-family: 'noto sans';
+}
+
+.login-flex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login-flex1.layout {
+  position: absolute;
+  overflow: visible;
+  width: 100%;
+  max-width: 572px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 0 15px;
+}
+
+.login-cover-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.203922);
+          box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.203922);
+  border-radius: 50px 50px 50px 50px;
+}
+
+.login-cover-group.layout {
+  position: relative;
+  overflow: visible;
+  margin: 0px;
+  padding: 60px 40px;
+}
+
+.login-flex2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login-flex2.layout {
+  position: relative;
+  overflow: visible;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.login-img.layout1 {
+  position: relative;
+  height: 53px;
+  width: 174.5px;
+  display: block;
+  margin: 0px auto 28px;
+}
+
+.login-cover-group1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #c9c9c9;
+  border-radius: 100px;
+}
+
+.login-cover-group1.layout {
+  position: relative;
+  overflow: visible;
+  min-height: 45px;
+  margin: 12px 5px;
+  padding: 10px 20px;
+}
+
+.login-cover-group1.layout input {
+  width: calc(100% - 30px);
+  height: 100%;
+  font-size: 17px;
+  outline: none;
+  border: 0;
+}
+
+.login-cover-group1.layout input::-webkit-input-placeholder {
+  font-size: 15px;
+  color: #a0a0a0;
+}
+
+.login-cover-group1.layout input:-ms-input-placeholder {
+  font-size: 15px;
+  color: #a0a0a0;
+}
+
+.login-cover-group1.layout input::-ms-input-placeholder {
+  font-size: 15px;
+  color: #a0a0a0;
+}
+
+.login-cover-group1.layout input::placeholder {
+  font-size: 15px;
+  color: #a0a0a0;
+}
+
+.login-cover-group1.layout.vertify input {
+  width: 100%;
+}
+
+.login-icon {
+  background: var(--src) center center/contain no-repeat;
+}
+
+.login-icon.layout {
+  position: relative;
+  height: 23px;
+  width: 23px;
+  background-position: 0 center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.login-cover-group4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: var(--src) center center/cover no-repeat;
+  border-radius: 100px;
+  -webkit-filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.152941));
+          filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.152941));
+}
+
+.login-cover-group4.layout {
+  position: relative;
+  overflow: visible;
+  min-height: 50px;
+  width: 100%;
+  margin: 16px auto 7.5px;
+  border: 0;
+  background: linear-gradient(243.18deg, #65D5E0 0%, #90C98C 100%);
+}
+
+.login-cover-group4.layout a {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 17px;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-cover-group4.layout a h5 {
+  font-weight: 700;
+}
+
+.login-flex3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login-flex3.layout {
+  position: relative;
+  overflow: visible;
+  margin: 7.5px 0px 15px 4px;
+}
+
+@media (max-width: 575.98px) {
+  .login-flex3.layout {
+    margin: 25px 0px 25px 10px;
+  }
+}
+
+.login-highlights3 {
+  font-family: 15px/1.2 "Noto Sans", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0;
+}
+
+.login-highlights3.layout {
+  position: relative;
+  margin: 0px;
+}
+
+.login-highlights4 {
+  font-family: 600 15px/1.2 "Noto Sans", Helvetica, Arial, serif;
+  color: #599f54;
+  text-decoration: underline;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.login-highlights4.layout {
+  position: relative;
+  margin: 0px;
+}
+
+.login-flex4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login-flex4.layout {
+  position: relative;
+  overflow: visible;
+  margin: 17px 4px 18px;
+}
+
+@media (max-width: 575.98px) {
+  .login-flex4.layout {
+    margin: 25px 10px;
+  }
+}
+
+.login-flex4-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 205px;
+          flex: 0 1 205px;
+}
+
+.login-line {
+  background-color: #b3b3b3;
+}
+
+.login-line.layout {
+  position: relative;
+  height: 1px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 9.5px 0px 7.5px;
+}
+
+.login-flex4-spacer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 17px;
+          flex: 0 1 17px;
+}
+
+.login-highlights5 {
+  font-family: 15px/1.2 "Noto Sans", Helvetica, Arial, serif;
+  color: #b3b3b3;
+  letter-spacing: 0;
+}
+
+.login-highlights5.layout {
+  position: relative;
+  margin: 0px;
+}
+
+.login-flex4-spacer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 9px;
+          flex: 0 1 9px;
+}
+
+.login-flex4-col1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 226px;
+          flex: 0 1 226px;
+}
+
+.login-img.layout2 {
+  position: relative;
+  height: 61px;
+  margin: 5px 3.5px 7px 4px;
+}
+
+@media (max-width: 575.98px) {
+  .login-img.layout2 {
+    height: 61px;
+    margin: 25px 10px;
+  }
+}
+/*# sourceMappingURL=Login.css.map */

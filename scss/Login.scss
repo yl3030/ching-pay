@@ -1,0 +1,289 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "mq";
+
+$font_type0: 16px/1.5625 "Noto Sans", Helvetica, Arial, serif;
+$font_type1: 16px/1.2 "Noto Sans", Helvetica, Arial, serif;
+$font_type2: 600 16px/1.2 "Noto Sans", Helvetica, Arial, serif;
+$font_type3: 15px/1.2 "Noto Sans", Helvetica, Arial, serif;
+$font_type4: 600 15px/1.2 "Noto Sans", Helvetica, Arial, serif;
+
+$font_color_type0: rgb(255, 255, 255);
+$font_color_type1: rgb(179, 179, 179);
+
+$background_type0: var(--src) center center / cover no-repeat;
+$background_type1: var(--src) center center / contain no-repeat;
+
+$border_type0: 1px solid rgb(201, 201, 201);
+
+$border_radius_type0: 100px;
+
+.login- {
+  &group {
+    display: flex;
+    background: $background_type0;
+    background-color: $font_color_type0;
+    @media screen and (max-width:992px) {
+      background-image: url(../assets/m-bg.png);
+    }
+  }
+  &group.layout {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &flex.layout {
+    position: absolute;
+    overflow: visible;
+    top: 56px;
+    // bottom: 832px;
+    left: 56px;
+    width: calc(50vw - 350px);
+    // min-width: 319px;
+    @media screen and (max-width:992px) {
+      display: none;
+    }
+  }
+  &img {
+    background: $background_type1;
+  }
+  &img.layout {
+    position: relative;
+    height: 38px;
+    width: 125px;
+    min-width: 125px;
+    margin: 0px;
+  }
+  &highlights {
+    font: $font_type0;
+    color: rgb(91, 91, 91);
+    letter-spacing: 0;
+    margin: 0px;
+  }
+  &highlights.layout {
+    position: relative;
+    margin: 23px 0px 0px;
+    font-family: 'noto sans';
+  }
+  &flex1 {
+    display: flex;
+    flex-direction: column;
+  }
+  &flex1.layout {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    max-width: 572px;
+    // min-width: 572px;
+    // margin: 144px auto 145px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 15px;
+  }
+  &cover-group {
+    display: flex;
+    background-color: $font_color_type0;
+    box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.20392156862745098);
+    border-radius: 50px 50px 50px 50px;
+  }
+  &cover-group.layout {
+    position: relative;
+    overflow: visible;
+    // min-height: 735px;
+    margin: 0px;
+    padding: 60px 40px;
+  }
+  &flex2 {
+    display: flex;
+    flex-direction: column;
+  }
+  &flex2.layout {
+    position: relative;
+    overflow: visible;
+    flex-grow: 1;
+    // margin: 90px 44px;
+    // @include xs {
+    //   flex-grow: 1;
+    //   margin: 45px 22px;
+    // }
+  }
+  &img.layout1 {
+    position: relative;
+    height: 53px;
+    width: 174.5px;
+    // min-width: 174.5px;
+    display: block;
+    margin: 0px auto 28px;
+    // @include xs {
+    //   height: 53px;
+    //   width: 174.5px;
+    //   min-width: 174.5px;
+    //   margin: 0px auto 25px;
+    // }
+  }
+  &cover-group1 {
+    display: flex;
+    justify-content: space-between;
+    border: $border_type0;
+    border-radius: $border_radius_type0;
+  }
+  &cover-group1.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 45px;
+    margin: 12px 5px;
+    padding: 10px 20px;
+    input {
+      width: calc(100% - 30px);
+      height: 100%;
+      font-size: 17px;
+      outline: none;
+      border: 0;
+      &::placeholder {
+        font-size: 15px;
+        color: rgb(160, 160, 160);
+      }
+    }
+    &.vertify {
+      input {
+        width: 100%;
+      }
+    }
+  }
+  &icon {
+    background: $background_type1;
+  }
+  &icon.layout {
+    position: relative;
+    height: 23px;
+    width: 23px;
+    background-position: 0 center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &cover-group4 {
+    display: flex;
+    background: $background_type0;
+    border-radius: $border_radius_type0;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.15294117647058825));
+  }
+  &cover-group4.layout {
+    position: relative;
+    overflow: visible;
+    min-height: 50px;
+    width: 100%;
+    margin: 16px auto 7.5px;
+    border: 0;
+    background: linear-gradient(243.18deg, #65D5E0 0%, #90C98C 100%);
+    a {
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 700;
+      margin: 0;
+      font-size: 17px;
+      color: #fff;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h5 {
+        font-weight: 700;
+      }
+    }
+  }
+  &flex3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  &flex3.layout {
+    position: relative;
+    overflow: visible;
+    margin: 7.5px 0px 15px 4px;
+    @include xs {
+      margin: 25px 0px 25px 10px;
+    }
+  }
+  &highlights3 {
+    font-family: $font_type3;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0;
+  }
+  &highlights3.layout {
+    position: relative;
+    margin: 0px;
+  }
+  &highlights4 {
+    font-family: $font_type4;
+    color: rgb(89, 159, 84);
+    text-decoration: underline;
+    letter-spacing: 0;
+    font-weight: 700;
+  }
+  &highlights4.layout {
+    position: relative;
+    margin: 0px;
+  }
+  &flex4 {
+    display: flex;
+  }
+  &flex4.layout {
+    position: relative;
+    overflow: visible;
+    margin: 17px 4px 18px;
+    @include xs {
+      margin: 25px 10px;
+    }
+  }
+  &flex4-col {
+    display: flex;
+    flex: 0 1 205px;
+  }
+  &line {
+    background-color: $font_color_type1;
+  }
+  &line.layout {
+    position: relative;
+    height: 1px;
+    flex-grow: 1;
+    margin: 9.5px 0px 7.5px;
+  }
+  &flex4-spacer {
+    display: flex;
+    flex: 0 1 17px;
+  }
+  &highlights5 {
+    font-family: $font_type3;
+    color: $font_color_type1;
+    letter-spacing: 0;
+  }
+  &highlights5.layout {
+    position: relative;
+    margin: 0px;
+  }
+  &flex4-spacer1 {
+    display: flex;
+    flex: 0 1 9px;
+  }
+  &flex4-col1 {
+    display: flex;
+    flex: 0 1 226px;
+  }
+  &img.layout2 {
+    position: relative;
+    height: 61px;
+    margin: 5px 3.5px 7px 4px;
+    @include xs {
+      height: 61px;
+      margin: 25px 10px;
+    }
+  }
+}
